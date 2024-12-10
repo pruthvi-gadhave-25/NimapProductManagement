@@ -12,7 +12,7 @@ function CategoryList() {
   const [isCatAdded ,setIsCatAdded] = useState(false) ; 
 
   const handleOpen = () => {
-    debugger ;
+   
     setShow(true);
     setCurrentProduct(null) ;
     setIsEditClicked(false) ;

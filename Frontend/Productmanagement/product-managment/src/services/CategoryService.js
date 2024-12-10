@@ -7,7 +7,7 @@ export const getCategories = async () => {
                 'Content-Type' : 'application/json' ,
             },
         }) ;
-debugger ;
+
         if(!response.ok){
             throw new Error("reposnse is not OK" , response.status) ;
         }
@@ -21,6 +21,7 @@ debugger ;
 
     //add 
 export async function addCategory(categoryData){
+  
     const url = "http://localhost:5278/api/Category" ;
 
     try{
@@ -31,6 +32,7 @@ export async function addCategory(categoryData){
             },
             body : JSON.stringify(categoryData)  ,
         }) ;
+console.log(response.json);
 
         if(!response.ok){
             throw new Error("reposnse is not OK" , response.status) ;

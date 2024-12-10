@@ -4,7 +4,7 @@ import Header from './component/Header';
 import ProductList from './component/ProductList';
 import CategoryList from './component/CategoryList';
 import { Route, Routes, useNavigate } from 'react-router-dom';
-import Home from './component/Home';
+import NotFound from './component/NotFound';
 import { useEffect, useState } from 'react';
 import FormModal from './component/FormModal';
 import { getCategories } from './services/CategoryService';
@@ -24,7 +24,7 @@ const navigate = useNavigate() ;
 
 
   const handleChange = (e) => {
-    debugger ;
+ 
     const { name, value } = e.target;
    
     setCurrentProduct((prevState) => ({
@@ -37,7 +37,7 @@ const navigate = useNavigate() ;
 
   
   const handleCateoryChange=(e) =>{
-    debugger 
+
         console.log(e.target.value);
 
         const selectedCategoryId = e.target.value;
@@ -118,7 +118,7 @@ const currId =  currentProduct.productId ;
   }
 
   const handleEdit =(id) => {
-    debugger ;
+
     const currProd =  products.find( prod => prod.productId == id ) ;
     setCurrentProduct(currProd);
     setIsEditClicked(true) ;
@@ -186,7 +186,7 @@ fetchProducts() ;
       handleCateoryChange={handleCateoryChange}
       />} />
 
-    <Route path='/' element={Home}/>
+    <Route path="*" element={<NotFound />} /> {/* Catch-all route */}
    </Routes>
     </div>
    

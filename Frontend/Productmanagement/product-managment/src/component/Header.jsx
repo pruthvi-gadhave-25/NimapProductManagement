@@ -12,9 +12,7 @@ function Header() {
 
     <div className="collapse navbar-collapse d-flex justify-content-between " id="navbarColor01">
       <ul className="navbar-nav mr-auto">
-        <li className="nav-item active">
-          <Link to='/' className="nav-link" href="#">Home </Link>
-        </li>
+     
         <li className="nav-item">
           <Link to='/products' className="nav-link" href="#">Products</Link>
         </li>
@@ -23,12 +21,7 @@ function Header() {
         </li>
        
       </ul>
-     <section >
-     <form className="form-inline d-flex ">
-        <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-        <button className="btn btn-outline-info my-2 my-sm-0" type="submit" fdprocessedid="sbxho">Search</button>
-      </form>
-     </section>
+    
     </div>
   </nav>
     </div>

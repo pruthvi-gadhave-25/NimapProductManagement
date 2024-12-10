@@ -1,6 +1,6 @@
 //get
 export async function getProducts(){
-    debugger 
+  
     const url = "http://localhost:5278/api/Product" ;
 
     try{
@@ -24,7 +24,7 @@ export async function getProducts(){
 
 //add 
 export async function addProduct(productData){
-    const url = "http://localhost:5278/add" ;
+    const url = "http://localhost:5278/api/Product" ;
 
     try{
         const response =await fetch(url , {
@@ -50,7 +50,7 @@ export async function addProduct(productData){
 export async function updateProduct(productData , id){
         
  
-    const url = `http://localhost:5278/api/Product/update/${id}` ;
+    const url = `http://localhost:5278/api/Product/${id}` ;
 
     try{
         const response =await fetch(url , {
@@ -74,7 +74,7 @@ export async function updateProduct(productData , id){
 
 //delete
 export async function deleteProduct(id){
-    const url = `http://localhost:5278/api/Product/delete/${id}` ;
+    const url = `http://localhost:5278/api/Product/${id}` ;
 
     try{
         const response =await fetch(url , {

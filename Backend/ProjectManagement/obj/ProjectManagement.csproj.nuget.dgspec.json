@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Drive E\\00CSharpPractise\\NimapTest\\NimapProductTest\\ProjectManagement\\ProjectManagement.csproj": {}
+    "F:\\Drive E\\00CSharpPractise\\NimapProduct\\Backend\\ProjectManagement\\ProjectManagement.csproj": {}
   },
   "projects": {
-    "F:\\Drive E\\00CSharpPractise\\NimapTest\\NimapProductTest\\ProjectManagement\\ProjectManagement.csproj": {
+    "F:\\Drive E\\00CSharpPractise\\NimapProduct\\Backend\\ProjectManagement\\ProjectManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Drive E\\00CSharpPractise\\NimapTest\\NimapProductTest\\ProjectManagement\\ProjectManagement.csproj",
+        "projectUniqueName": "F:\\Drive E\\00CSharpPractise\\NimapProduct\\Backend\\ProjectManagement\\ProjectManagement.csproj",
         "projectName": "ProjectManagement",
-        "projectPath": "F:\\Drive E\\00CSharpPractise\\NimapTest\\NimapProductTest\\ProjectManagement\\ProjectManagement.csproj",
+        "projectPath": "F:\\Drive E\\00CSharpPractise\\NimapProduct\\Backend\\ProjectManagement\\ProjectManagement.csproj",
         "packagesPath": "C:\\Users\\ravig\\.nuget\\packages\\",
-        "outputPath": "F:\\Drive E\\00CSharpPractise\\NimapTest\\NimapProductTest\\ProjectManagement\\obj\\",
+        "outputPath": "F:\\Drive E\\00CSharpPractise\\NimapProduct\\Backend\\ProjectManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ravig\\AppData\\Roaming\\NuGet\\NuGet.Config",
